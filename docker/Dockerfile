@@ -11,4 +11,4 @@ RUN pip install --upgrade six pyyaml && \
     cd pylearn2 && \
     python3 setup.py develop
 
-ENV PYLEARN2_DATA_PATH "eog --new-instance"
+ENV PYLEARN2_DATA_PATH *NEED TO INPUT DATA PATH*
